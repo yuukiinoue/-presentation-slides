@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生成AIの資格勉強をやってみた</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- スライド1: タイトル -->
+        <div class="slide active" id="slide1">
+            <div class="slide-content">
+                <div class="title-section">
+                    <h1 class="main-title">生成AIの資格勉強をやってみた</h1>
+                    <p class="subtitle">TPMナレッジシェア6月発表資料</p>
+                    <div class="presenter-info">
+                        <p>発表者: 井上雄貴（いのうえゆうき）</p>
+                        <p>2025年6月26日</p>
+                    </div>
+                </div>
+                <div class="decoration">
+                    <div class="floating-element"></div>
+                    <div class="floating-element"></div>
+                    <div class="floating-element"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- スライド2: 自己紹介 -->
+        <div class="slide" id="slide2">
+            <div class="slide-content">
+                <h2 class="slide-title">自己紹介</h2>
+                <div class="content-grid">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="profile.jpeg" alt="井上雄貴 プロフィール写真" class="avatar-image">
+                        </div>
+                        <div class="profile-details">
+                            <h3>井上雄貴（いのうえゆうき）</h3>
+                            <ul>
+                                <li>#趣味はゴルフとキャンプ</li>
+                                <li>#いまだに車に乗れません</li>
+                                <li>#頑張って教習所に通うぞ</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ai-thoughts">
+                        <h3>生成AIについて考えていること</h3>
+                        <div class="thought-bubble">
+                            <p>マネジャー業務であるレビュー/相談ごとや勤怠管理などもAIでできないかなと考えている</p>
+                        </div>
+                        <div class="thought-bubble">
+                            <p>そしたらみんなAIに聞くから自分と1on1で話することなくなって自分の価値がなくなるだろうから雑談力を磨いたほうがいいかもしれない</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- スライド3: 資格オタク -->
+        <div class="slide" id="slide3">
+            <div class="slide-content">
+                <h2 class="slide-title">私いのうえは若干資格オタクです</h2>
+                <div class="content-grid">
+                    <div class="motivation">
+                        <h3>資格を取る理由</h3>
+                        <ul>
+                            <li>勲章集め的なものが好き（ドラクエも序盤にレベルあげしているときが一番楽しい）</li>
+                            <li>知識習得もかねて資格集めが好き</li>
+                            <li>今年は難易度の高いものにも挑戦したい</li>
+                            <li>当社には資格インセンティブ制度があるため</li>
+                        </ul>
+                    </div>
+                    <div class="certificates">
+                        <h3>いままでに取得した主な資格</h3>
+                        <div class="certificate-grid">
+                            <div class="certificate-item">
+                                <div class="cert-icon">💻</div>
+                                <span>応用情報技術者試験</span>
+                            </div>
+                            <div class="certificate-item">
+                                <div class="cert-icon">📊</div>
+                                <span>PMP（Project Management Professional）</span>
+                            </div>
+                            <div class="certificate-item">
+                                <div class="cert-icon">🎯</div>
+                                <span>G（ジェネラリスト）検定</span>
+                            </div>
+                            <div class="certificate-item">
+                                <div class="cert-icon">🔄</div>
+                                <span>アドバンスド認定スクラムマスター</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- スライド4: なぜ生成AIの資格を取ろうと思ったか -->
+        <div class="slide" id="slide5">
+            <div class="slide-content">
+                <h2 class="slide-title">なんで生成AIの資格をとろうと思ったか？</h2>
+                <div class="content-section">
+                    <div class="reason-flow">
+                        <div class="flow-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>勉強スタイル</h4>
+                                <p>私は勉強するときに何かゴールがないと勉強ができない人です</p>
+                            </div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>資格取得が好きになったきかっけ</h4>
+                                <p>情報処理技術者試験の勉強したときに、知識が頭に入るのは楽しいかもしれないと思った</p>
+                            </div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>今回もどうせやるならと</h4>
+                                <p>生成AIもどうせ勉強するなら資格をついでにとってしまおう！</p>
+                            </div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>ついでにネタに</h4>
+                                <p>あとはこの会のネタになるかなぐらいな感じ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- スライド5: AI関連の資格 -->
+        <div class="slide" id="slide6">
+            <div class="slide-content">
+                <h2 class="slide-title">AI関連の資格は何があるの？取得する価値あるの？</h2>
+                <div class="content-section">
+                    <div class="value-proposition">
+                        <h3>資格取得の価値</h3>
+                        <div class="value-grid">
+                            <div class="value-item">
+                                <div class="value-icon">📚</div>
+                                <h4>体系的な知識習得</h4>
+                                <p>生成AIの基礎から応用までを体系的に学ぶことができます</p>
+                            </div>
+                            <div class="value-item">
+                                <div class="value-icon">🏆</div>
+                                <h4>スキルの証明</h4>
+                                <p>特定の分野における知識やスキルを持っていることの客観的な証明となります</p>
+                            </div>
+                            <div class="value-item">
+                                <div class="value-icon">📈</div>
+                                <h4>キャリアアップ</h4>
+                                <p>生成AIの専門知識は需要が高く、資格を持つことで転職や昇進の機会が増える可能性があります</p>
+                            </div>
+                            <div class="value-item">
+                                <div class="value-icon">🔄</div>
+                                <h4>最新情報のキャッチアップ</h4>
+                                <p>多くの資格は、最新の技術動向を反映した内容となっているため、常に新しい情報を学ぶことができます</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- スライド6: AI系の主な資格 -->
+        <div class="slide" id="slide7">
+            <div class="slide-content">
+                <h2 class="slide-title">AI系の主な資格</h2>
+                <div class="content-section">
+                    <div class="certificate-categories">
+                        <div class="category">
+                            <h3>初級者向け</h3>
+                            <div class="cert-list">
+                                <div class="cert-item">
+                                    <strong>G検定（ジェネラリスト検定）</strong>
+                                    <p>AIやディープラーニングの基礎知識、事業活用に関する知識を問う</p>
+                                </div>
+                                <div class="cert-item">
+                                    <strong>生成AIパスポート</strong>
+                                    <p>生成AIの基礎知識、倫理、活用事例などを問う</p>
+                                </div>
+                                <div class="cert-item">
+                                    <strong>Generative AI Test</strong>
+                                    <p>生成AIに特化した知識や活用リテラシーを確認するミニテスト</p>
+                                </div>
+                                <div class="cert-item">
+                                    <strong>AWS Certified AI Practitioner</strong>
+                                    <p>人工知能 (AI)、機械学習 (ML)、生成 AI の概念とユースケースに関する需要の高い知識を実証する</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- スライド7: 中級・上級者向け資格 -->
+        <div class="slide" id="slide8">
+            <div class="slide-content">
+                <h2 class="slide-title">中級・上級者向け資格</h2>
+                <div class="content-section">
+                    <div class="certificate-categories">
+                        <div class="category">
+                            <h3>中級者向け</h3>
+                            <div class="cert-list">
+                                <div class="cert-item">
+                                    <strong>Google Cloud Certified - Machine Learning Engineer</strong>
+                                    <p>Google Cloud上での機械学習モデルの設計、構築、デプロイに関するスキルを証明する</p>
+                                </div>
+                                <div class="cert-item">
+                                    <strong>Microsoft Certified: Azure AI Engineer Associate</strong>
+                                    <p>Microsoft Azure上でのAIソリューションの実装に関するスキルを証明する</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <h3>上級者向け</h3>
+                            <div class="cert-list">
+                                <div class="cert-item">
+                                    <strong>E資格（エンジニア資格）</strong>
+                                    <p>ディープラーニングの理論を理解し、実装する能力を問う</p>
+                                </div>
+                                <div class="cert-item">
+                                    <strong>AWS Certified Machine Learning – Specialty</strong>
+                                    <p>AWS上での機械学習モデルの開発、デプロイ、運用に関する専門知識を証明する</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- スライド8: 生成AIパスポートを選んだ理由 -->
+        <div class="slide" id="slide9">
+            <div class="slide-content">
+                <h2 class="slide-title">その中で生成AIパスポートを選んだ理由</h2>
+                <div class="content-section">
+                    <div class="reason-analysis">
+                        <div class="reason-card">
+                            <h3>🎯 選んだ理由</h3>
+                            <ul>
+                                <li>実装系、ベンダー系は業務の中でも習得できそう</li>
+                                <li>AIをつかったプロダクト開発の要件定義などで必要な知識を習得できたら</li>
+                                <li>まずは生成AIパスポートを取得しようと思った</li>
+                            </ul>
+                        </div>
+                        <div class="reason-card">
+                            <h3>💭 個人的な見解</h3>
+                            <ul>
+                                <li>転職等で正直使えそうなのはAWSなどのベンダー資格ぐらい</li>
+                                <li>知らないひとが多そう</li>
+                                <li>ベンダー系のほうが実務で活用しやすい</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- スライド9: 生成AIパスポートとは -->
+        <div class="slide" id="slide10">
+            <div class="slide-content">
+                <h2 class="slide-title">生成AIパスポートとは？</h2>
+                <div class="content-section">
+                    <div class="reason-analysis">
+                        <div class="reason-card">
+                            <h3>📋 試験概要</h3>
+                            <ul>
+                                <li><strong>主催:</strong> 一般社団法人生成AI活用普及協会（GUGA）</li>
+                                <li><strong>目的:</strong> 生成AIを社会で適切に活用するための知識を習得</li>
+                                <li><strong>対象者:</strong> 生成AIに興味がある方、ビジネスで生成AIを活用したい方</li>
+                            </ul>
+                        </div>
+                        <div class="reason-card">
+                            <h3>📝 試験形式</h3>
+                            <ul>
+                                <li><strong>出題形式:</strong> 四肢択一式</li>
+                                <li><strong>問題数:</strong> 60問</li>
+                                <li><strong>試験時間:</strong> 60分</li>
+                                <li><strong>合格基準:</strong> 100点満点中70点以上</li>
+                                <li><strong>受験料:</strong> 11,000円（税込）</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- スライド10: 模擬問題 -->
+        <div class="slide" id="slide11">
+            <div class="slide-content">
+                <h2 class="slide-title">生成AIパスポート模擬問題</h2>
+                <div class="content-section">
+                    <div class="quiz-section">
+                        <div class="quiz-question">
+                            <h3>問題</h3>
+                            <p>生成AIが生成するコンテンツにおいて、著作権の帰属について現在最も議論されている点として、適切なものはどれか。</p>
+                            <div class="options">
+                                <div class="option">A. 生成AIの開発者に全ての著作権が帰属するべきである。</div>
+                                <div class="option">B. 生成AIの利用者に全ての著作権が帰属するべきである。</div>
+                                <div class="option">C. 生成AIが学習したデータセットの提供者に著作権が帰属するべきである。</div>
+                                <div class="option correct">D. 生成AIが自律的に生成したコンテンツに対して、既存の著作権法の枠組みをどのように適用するかが明確ではない。</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- スライド11: 結果と感想 -->
+        <div class="slide" id="slide12">
+            <div class="slide-content">
+                <h2 class="slide-title">で、どうだった？</h2>
+                <div class="content-section">
+                    <div class="result-analysis">
+                        <div class="result-card">
+                            <h3>📊 試験結果</h3>
+                            <ul>
+                                <li>内容としては簡単だった</li>
+                                <li>合格率は6~7割とのこと</li>
+                                <li>正直資格ビジネス的な要素が強い印象</li>
+                            </ul>
+                        </div>
+                        <div class="result-card">
+                            <h3>🎓 学習効果</h3>
+                            <ul>
+                                <li>G検定を取得していた自分からすると同じようなことを学習</li>
+                                <li>5年ぐらいのAIが進化したupdate分を習ったぐらい</li>
+                                <li>著作権や倫理的な観点での学びはあり</li>
+                            </ul>
+                        </div>
+                        <div class="result-card">
+                            <h3>💡 実務への活用</h3>
+                            <ul>
+                                <li>今後要求としてプロダクトが出てきたときに知っていると知らないとでは差がでそう</li>
+                                <li>我々の仕事だと標準プロセスなどやるときにあたりがつけられる点が知識としては得られた</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- スライド12: 次に勉強すること -->
+        <div class="slide" id="slide13">
+            <div class="slide-content">
+                <h2 class="slide-title">次はなにを勉強する？</h2>
+                <div class="content-section">
+                    <div class="next-steps">
+                        <div class="step-recommendation">
+                            <h3>🚀 推奨資格（やっぱAWSがいい気がする）</h3>
+                            <div class="recommendation-list">
+                                <div class="recommendation-item">
+                                    <h4>AWS Certified AI Practitioner</h4>
+                                    <p>TPMならこちらが良さそう</p>
+                                </div>
+                                <div class="recommendation-item">
+                                    <h4>AWS Certified Machine Learning – Specialty</h4>
+                                    <p>頑張れるならこちらも</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-warning">
+                            <h3>自分の経験だと、、、</h3>
+                            <p>G検定は試験中一生懸命ネットを検索するという検索能力を試すかのような試験になるのであまりお勧めしないです</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- スライド13: おまけ - プレゼン資料の作り方 -->
+        <div class="slide" id="slide14">
+            <div class="slide-content">
+                <h2 class="slide-title">おまけ</h2>
+                <div class="content-section">
+                    <div class="bonus-content">
+                        <h3>今回のプレゼン資料の作り方</h3>
+                        <div class="process-flow-vertical">
+                            <div class="process-step-vertical">
+                                <div class="step-number-vertical">1</div>
+                                <p>Googleドキュメントで箇条書きにする</p>
+                            </div>
+                            <div class="process-step-vertical">
+                                <div class="step-number-vertical">2</div>
+                                <p>Markdownでエクスポート</p>
+                            </div>
+                            <div class="process-step-vertical">
+                                <div class="step-number-vertical">3</div>
+                                <p>Cursorにぶち込んで</p>
+                            </div>
+                            <div class="process-step-vertical">
+                                <div class="step-number-vertical">4</div>
+                                <p>Webでいい感じにして</p>
+                            </div>
+                            <div class="process-step-vertical">
+                                <div class="step-number-vertical">5</div>
+                                <p>HTML,CSSをあーでもないこーでもないとして</p>
+                            </div>
+                            <div class="process-step-vertical">
+                                <div class="step-number-vertical">6</div>
+                                <p>完成</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- スライド14: まとめ -->
+        <div class="slide" id="slide15">
+            <div class="slide-content">
+                <div class="conclusion-section">
+                    <h2 class="slide-title">まとめ</h2>
+                    <div class="conclusion-content">
+                        <div class="key-points">
+                            <h3>🎯 主要ポイント</h3>
+                            <ul>
+                                <li>生成AIパスポートは比較的取得しやすい資格</li>
+                                <li>実務で活用できる知識が得られる</li>
+                                <li>TPMにはAWS系の資格がおすすめ</li>
+                                <li>AIを活用したプレゼン資料作成も効果的</li>
+                            </ul>
+                        </div>
+                        <div class="final-message">
+                            <h3>💡 最後に</h3>
+                            <p>生成AIの資格取得を通じて、技術の理解を深め、実務に活かしていきましょう！</p>
+                        </div>
+                    </div>
+                    <div class="thank-you">
+                        <h2>ご清聴ありがとうございました</h2>
+                        <p>Questions & Answers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ナビゲーション -->
+    <div class="navigation">
+        <button class="nav-btn prev-btn" onclick="previousSlide()">←</button>
+        <div class="slide-indicators">
+            <span class="indicator active" onclick="goToSlide(1)"></span>
+            <span class="indicator" onclick="goToSlide(2)"></span>
+            <span class="indicator" onclick="goToSlide(3)"></span>
+            <span class="indicator" onclick="goToSlide(4)"></span>
+            <span class="indicator" onclick="goToSlide(5)"></span>
+            <span class="indicator" onclick="goToSlide(6)"></span>
+            <span class="indicator" onclick="goToSlide(7)"></span>
+            <span class="indicator" onclick="goToSlide(8)"></span>
+            <span class="indicator" onclick="goToSlide(9)"></span>
+            <span class="indicator" onclick="goToSlide(10)"></span>
+            <span class="indicator" onclick="goToSlide(11)"></span>
+            <span class="indicator" onclick="goToSlide(12)"></span>
+            <span class="indicator" onclick="goToSlide(13)"></span>
+            <span class="indicator" onclick="goToSlide(14)"></span>
+        </div>
+        <button class="nav-btn next-btn" onclick="nextSlide()">→</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

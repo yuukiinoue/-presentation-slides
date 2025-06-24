@@ -546,4 +546,76 @@ body {
         max-height: 40vh; /* 高さを制限 */
         object-fit: contain;
     }
+}
+
+/* Tipsページ用2カラムレイアウト */
+.tips-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: start;
+}
+.tips-original {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.tips-box {
+    background: #fff;
+    border: 2px solid #adb5bd;
+    border-radius: 10px;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    min-width: 340px;
+    max-width: 480px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.tips-q-title {
+    font-size: 1.08rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 0.7rem;
+}
+.tips-q-list {
+    margin: 0 0 1.2rem 1.2rem;
+    padding: 0;
+    font-size: 1.05rem;
+}
+.tips-q-list li {
+    margin-bottom: 0.5rem;
+    line-height: 1.7;
+}
+.tips-answer {
+    margin-top: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: left;
+}
+.tips-answer-num {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-left: 0.3em;
+}
+.tips-modern {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+@media (max-width: 900px) {
+    .tips-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .tips-original, .tips-modern {
+        justify-content: center;
+    }
+    .tips-box {
+        min-width: unset;
+        max-width: 100%;
+    }
 } 
